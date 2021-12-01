@@ -34,3 +34,21 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+```{r child = 'chapters/01-intro.Rmd', eval = TRUE}
+```
+
+```{r child = 'chapters/02-literature.Rmd', eval = TRUE}
+```
+
+```{r child = 'chapters/03-method.Rmd', eval = TRUE}
+```
+
+```{r child = 'chapters/04-application.Rmd', eval = TRUE}
+```
+
+```{r child = 'chapters/05-summary.Rmd', eval = TRUE}
+```
+
+```{r child = 'chapters/06-references.Rmd', eval = TRUE}
+```
