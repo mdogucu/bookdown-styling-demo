@@ -6,3 +6,11 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+
+\usepackage[most]{tcolorbox}
+\usepackage{lipsum}
+
+\newtcolorbox{note}{%
+     enhanced, breakable, arc=1pt, outer arc=1pt, leftrule=0mm, rightrule=0mm, colback=purple!8!white, colframe=purple,
+      fontupper = \textbf{Note} \vskip 4pt,
+}

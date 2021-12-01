@@ -12,3 +12,20 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+.note {
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-bottom:1.5em;
+  position: relative;
+  background-color: #F4ECF780;
+  border-bottom: 1px solid #5B2C6F;
+  border-top: 1px solid #5B2C6F;
+  border-radius: 10px;
+}
+
+.note:before {
+   content: 'Note';
+   font-size: 20px;
+   font-weight:bold;
+}
