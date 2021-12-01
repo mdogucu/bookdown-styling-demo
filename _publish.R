@@ -13,7 +13,7 @@ for (fmt in c('html_book', 'tufte_html_book')) {
     gsub('^title: ".*"', s[i], gsub('gitbook', fmt, x)), 'index.Rmd'
   )
   cat(
-    'bookdown::', fmt, ':\n', '  css: [style.css, toc.css]\n', sep = '', file = '_output.yml',
+    'bookdown::', fmt, ':\n', '  css: [style/style.css, style/toc.css]\n', sep = '', file = '_output.yml',
     append = TRUE
   )
   cmd = sprintf("bookdown::render_book('index.Rmd', 'bookdown::%s', quiet = TRUE)", fmt)
