@@ -1,0 +1,10 @@
+## Exercises
+
+
+```{exercise, label = "life-meaning", name="Interesting Question"}
+What is the meaning of life?
+```
+
+```{exercise, name="Interesting Question 2"}
+If you answered in Exercise \@ref(exr:life-meaning), consider other possible answers.
+```

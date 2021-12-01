@@ -38,6 +38,9 @@ knitr::write_bib(c(
 ```{r child = 'chapters/01-intro.Rmd', eval = TRUE}
 ```
 
+```{r child = 'exercises/01-intro-exercises.Rmd', eval = TRUE}
+```
+
 ```{r child = 'chapters/02-literature.Rmd', eval = TRUE}
 ```
 
