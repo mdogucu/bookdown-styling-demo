@@ -50,3 +50,14 @@ pre code {
 
 /*end of R code styling*/
 
+/*styling header*/
+
+h1, h2, h3{
+  color:#FFA500;
+}
+
+
+h1, h2{
+  border-bottom: 3px solid #FFA500;
+  border-top: 3px solid #FFA500;
+}
