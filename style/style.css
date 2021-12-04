@@ -29,3 +29,24 @@ pre code {
    font-size: 20px;
    font-weight:bold;
 }
+
+
+/*Changing R code styling*/
+
+/*Changing inline code*/
+
+.book .book-body .page-wrapper .page-inner section.normal code {
+  background-color: #eaeff0;
+  font-family: Monospace;
+}
+
+/*Changing code chunk*/
+
+.book .book-body .page-wrapper .page-inner section.normal pre {
+  background-color:white;
+  border:1px solid black;
+  font-family: Monospace;
+}
+
+/*end of R code styling*/
+
